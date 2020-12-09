@@ -1,0 +1,25 @@
+* /*Selector universal*/
+{
+    color:red;
+}
+
+h1 /*Selector por tipos funciona para los  diferentes tipos de etiquetas*/
+{
+    color: black;
+}
+/*seleccionar por clases, responde al atributo class de cada etiqueta es decir todos los elementos que "usen esa clase".*/
+.titulos_h2
+{
+    color: blue;
+}
+/*Selector por Id responde al elemento que tiene ese ID, id deberia de ser unico*/
+#boton_1
+{
+   color: cornflowerblue;
+
+}
+ /*seleccionar por atributos*/
+ /*
+ [valor atributo]
+ { }
+ */
