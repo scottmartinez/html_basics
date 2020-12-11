@@ -5,14 +5,152 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <!--
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
+    -->
+   
     <title>Scott Martinez</title>
 </head>
     <body>
-     <h1>Hola Mundo</h1>
-     <h2 class="titulos_h2">H2 con CSS a ver que pasa</h2>
-     <input type="text" value="Escribe algo aqui">
-     <button id="boton_1">Boton</button>
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, distinctio incidunt voluptatum consequuntur nostrum aspernatur recusandae excepturi voluptates tempore dolorum at aperiam fugit et asperiores tempora placeat perspiciatis adipisci? Quae dignissimos nihil, ipsum ab tenetur expedita similique quam optio blanditiis qui est hic culpa illum temporibus, accusantium aut, veritatis rem? Consequatur maiores deleniti repudiandae nobis nisi aliquam sint quia aliquid.</p>
-      
+        <header class="hero">
+            <div class="contenedor">
+                <nav class="nav">
+                    <a href="#" class="nav__elementos nav__elementos--cta">Contactame</a>
+                    <a href="#" class="nav__elementos">Sobre Mi</a>
+                    <a href="#" class="nav__elementos">Proyectos</a>
+                </nav>
+                <section class="hero__contenedor">
+                    <div class="hero__texto">
+                        <h1 class="hero__titulo">Hola Soy Scott Martinez</h1>
+                        <h2 class="hero__subtitulo">Todo se Puede XD</h2>
+                        <a href="#" class="hero__cta">Contactame</a>
+                    </div>
+
+                </section>
+            </div>
+            <div class="hero__onda" style="overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-2.54,35.03 C214.16,157.39 399.26,-6.41 500.00,49.98 L500.00,150.00 L-2.54,156.41 Z" style="stroke: none; "></path></svg></div>
+        </header>
+        <main>
+            <section class="presentacion contenedor">
+                <img src="recursos/Foto_Scott_Martinez.jpeg" alt="Fotografia Scott Martinez" class="presentacion__imagen">
+                <h2 class="subtitulo">Soy Scott Martinez</h2>
+                <p class="presentacion__copia">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum eaque provident voluptates quisquam, ipsa voluptatem laudantium enim rerum, odio nihil repellat error possimus nisi iure repudiandae! Provident aut laborum repellendus.
+                </p>
+                <a href="#" class="presentacion__cta">Contactame ya!</a>
+                <section class="acerca contenedor">
+                    <div class="acerca__textos">
+                        <h2 class="subtitulo">Lo que puedo hacer</h2>
+                        <p class="acerca__parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, cum modi, enim dolore doloribus quisquam aliquam maiores in atque debitis impedit omnis natus, tempora cupiditate magnam commodi sed sint amet.</p>
+                        <p class="acerca__parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, cum modi, enim dolore doloribus quisquam aliquam maiores in atque debitis impedit omnis natus, tempora cupiditate magnam commodi sed sint amet.</p>
+                    </div>
+                    <figure class="acerca__img">
+                        <img src="recursos/laptop_1.jpg" alt="Computadora Laptop" class="acerca__imagen">
+                    </figure>
+                    <figure class="acerca__img acerca__img--izquierda">
+                        <img src="recursos/laptop_2.jpg" alt="Computadora Laptop" class="acerca__imagen">
+                    </figure>
+                    <div class="acerca__textos">
+                        <h2 class="subtitulo">Mi Trabajo</h2>
+                        <p class="acerca__parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, cum modi, enim dolore doloribus quisquam aliquam maiores in atque debitis impedit omnis natus, tempora cupiditate magnam commodi sed sint amet.</p>
+                        <p class="acerca__parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, cum modi, enim dolore doloribus quisquam aliquam maiores in atque debitis impedit omnis natus, tempora cupiditate magnam commodi sed sint amet.</p>
+                    </div>
+                </section>
+            </section>
+            <section class="proyectos">
+                <div class="contenedor">
+                    <h2 class="subtitulo">Mis Proyectos</h2>
+                    <div class="proyectos__grid">
+                        <article class="proyectos__elemento" >
+                            <img src="recursos/img1.jpg" alt="Imagen 1">
+                            <div class="proyecto__hover">
+                                <h2 class="proyecto_titulo">Proyecto</h2>
+                                <i class="far fa-file-alt proyecto__icono"></i>
+                            </div>
+                        </article>
+                        <article class="proyectos__elemento" >
+                            <img src="recursos/img2.jpg" alt="Imagen 1">
+                            <div class="proyecto__hover">
+                                <h2 class="proyecto_titulo">Proyecto</h2>
+                                <i class="far fa-file-alt proyecto__icono"></i>
+                            </div>
+                        </article>
+                        <article class="proyectos__elemento" >
+                            <img src="recursos/img3.jpg" alt="Imagen 1">
+                            <div class="proyecto__hover">
+                                <h2 class="proyecto_titulo">Proyecto</h2>
+                                <i class="far fa-file-alt proyecto__icono"></i>
+                            </div>
+                        </article>
+                        <article class="proyectos__elemento" >
+                            <img src="recursos/img4.jpg" alt="Imagen 1">
+                            <div class="proyecto__hover">
+                                <h2 class="proyecto_titulo">Proyecto</h2>
+                                <i class="far fa-file-alt proyecto__icono"></i>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+            <section class="testimonio container">
+                <h2 class="subtitulo">
+                    Que dicen de mi?
+                </h2>
+                <div class="testimonio__grid">
+                    <article class="testimonio__elemento">
+                        <div class="testimonio__persona">
+                            <img src="recursos/programador_1.jpg" alt="Programador 1">
+                            <div class="testimonio__textos">
+                                <h3 class="nombre_testimonio">Scott Martinez</h3>
+                                <p class="verifica_testimonio">Creador de esta pagina web</p>
+                            </div>
+                        </div>
+                        <p class="review__testimonio">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae tempore fugit hic</p>
+                    </article>
+                    <article class="testimonio__elemento">
+                        <div class="testimonio__persona">
+                            <img src="recursos/programador_1.jpg" alt="Programador 1">
+                            <div class="testimonio__textos">
+                                <h3 class="nombre_testimonio">Scott Martinez</h3>
+                                <p class="verifica_testimonio">Creador de esta pagina web</p>
+                            </div>
+                        </div>
+                        <p class="review__testimonio">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae tempore fugit hic</p>
+                    </article>
+                </div>
+            </section>
+        </main>
+        <footer class="pie_pagina">
+            <div class="contenedor pie_pagina__grid">
+                <nav class="nav nav--pie_pagina">
+                    <a class="nav__elementos nav__elementos--pie_pagina" href="">Inicio</a>
+                    <a class="nav__elementos nav__elementos--pie_pagina"href="">Sobre Mi</a>
+                    <a class="nav__elementos nav__elementos--pie_pagina"href="">Conocimietos</a>
+                    <a class="nav__elementos nav__elementos--pie_pagina"href="">Proyectos</a>
+                </nav>
+                <section class="pie_pagina__contacto">
+                    <h3 class="pie_pagina__tiutlo">Contactame</h3>
+                    <div class="pie_pagina__iconos">
+
+                        <a href="https://www.facebook.com/scottandres.martinezolivas" target="_blank" tooltip="">
+                            <span class="pie_pagina__contenedor-iconos" tooltiptext>Contacto Facebook</span>
+                            <img class="iconos-redes" src="recursos/facebook.svg" alt="LogoTipo Facebook Inc." ></a> 
+                
+                        <a href="https://github.com/scottmartinez" target="_blank" tooltip>
+                            <span class="pie_pagina__contenedor-iconos" tooltiptext>Repositorio GitHub</span>
+                            <img class="iconos-redes" src="recursos/github.svg" alt="LogoTipo LinkedIn"></a> 
+                
+                        <a href="https://t.me/ScottMartinez" target="_blank" tooltip="">
+                            <span class="pie_pagina__contenedor-iconos" tooltiptext>Contacto Telegram</span>
+                            <img class="iconos-redes"src="recursos/telegram.svg" alt="Logotipo Telegram"></a>
+                
+                         <a href="https://www.linkedin.com/in/scott-martinez-olivas-40a043121/" target="_blank" tooltip="">
+                            <span class="pie_pagina__contenedor-iconos" tooltiptext>Contacto LinkedIn</span>
+                            <img class="iconos-redes"src="recursos/LinkedIn.svg" alt="Logotipo LinkedIn"></a>
+                    </div>
+                </section>
+            </div>
+        </footer>
     </body>
 </html>
