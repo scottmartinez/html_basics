@@ -283,9 +283,9 @@ align-items: center;
 .pie_pagina__grid
 {
     display: grid;
-    grid-template-columns: 3fr 2fr;
- gap: 20px;   
- align-items: center;
+    grid-template-columns: 1fr 0.75fr;
+    gap: 0px;   
+    align-items: center;
 }
 .pie_pagina__titulo
 {
