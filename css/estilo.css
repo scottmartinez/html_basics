@@ -28,7 +28,7 @@
 
 .hero {
     height: 100vh;
-    background-image: var(--background), url(../recursos/programador_1.jpg);
+    background-image: var(--background), url(../recursos/programador_1_1920.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -252,6 +252,14 @@ align-items: center;
     margin-right: 30px;
 
 }
+.persona2
+{
+    display: flex;
+    align-items: right;
+    justify-content: right;
+}
+
+
 .nombre_testimonio
 {
     font-size: 1.5rem;

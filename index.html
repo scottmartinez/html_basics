@@ -35,7 +35,7 @@
         </header>
         <main>
             <section class="presentacion contenedor">
-                <img src="recursos/Foto_Scott_Martinez.jpeg" 
+                <img src="recursos/Foto_Scott_Martinez.webp" 
                 alt="Fotografia Scott Martinez"
                  class="presentacion__imagen">
                 <h2 class="subtitulo">Soy Scott Martinez</h2>
@@ -60,10 +60,22 @@
                         </p>
                     </div>
                     <figure class="acerca__img">
-                        <img src="recursos/laptop_1.jpg" alt="Computadora Laptop" class="acerca__imagen">
+                        <img srcset="recursos/laptop_1_1920.webp 1920w,
+                                      recursos/laptop_1_720.webp 720w,
+                                      recursos/laptop_1_480.webp 480w,
+                                      recursos/laptop_1_360.web 360w"
+                                sizes="(max-with: 320px) 280px,
+                                (max-with: 720px) 680px,
+                                (max-with: 1920px) 1880px" alt="Computadora Laptop" class="acerca__imagen">
                     </figure>
                     <figure class="acerca__img acerca__img--izquierda">
-                        <img src="recursos/laptop_2.jpg" alt="Computadora Laptop" class="acerca__imagen">
+                        <img srcset="recursos/laptop_2_1920.webp 1920w,
+                        recursos/laptop_2_720.webp 720w,
+                        recursos/laptop_2_480.webp 480w,
+                        recursos/laptop_2_360.web 360w"
+                  sizes="(max-with: 320px) 280px,
+                  (max-with: 720px) 680px,
+                  (max-with: 1920px) 1880px" alt="Computadora Laptop 2" class="acerca__imagen">
                     </figure>
                     <div class="acerca__textos">
                         <h2 class="subtitulo">Mi Trabajo</h2>
@@ -78,28 +90,55 @@
                     <h2 class="subtitulo">Mis Proyectos</h2>
                     <div class="proyectos__grid">
                         <article class="proyectos__elemento" >
-                            <img src="recursos/img1.jpg" alt="Imagen 1" class="proyectos__img">
+                            <img 
+                            srcset="recursos/img1_1980.webp 1920w,
+                        recursos/img1_720.webp 720w,
+                        recursos/img1_480.webp 480w,
+                        recursos/img1_360.web 360w"
+                  sizes="(max-with: 320px) 280px,
+                  (max-with: 720px) 680px,
+                  (max-with: 1920px) 1880px"
+                            alt="Imagen 1" class="proyectos__img">
                             <div class="proyecto__hover">
                                 <h2 class="proyecto__titulo">Proyecto</h2>
                                 <i class="proyecto__icono">DOC</i>
                             </div>
                         </article>
                         <article class="proyectos__elemento" >
-                            <img src="recursos/img2.jpg" alt="Imagen 1" class="proyectos__img">
+                            <img 
+                            srcset="recursos/img2_1980.webp 1920w,
+                            recursos/img2_720.webp 720w,
+                            recursos/img2_480.webp 480w,
+                            recursos/img2_360.web 360w"
+                      sizes="(max-with: 320px) 280px,
+                      (max-with: 720px) 680px,
+                      (max-with: 1920px) 1880px"alt="Imagen 1" class="proyectos__img">
                             <div class="proyecto__hover">
                                 <h2 class="proyecto__titulo">Proyecto</h2>
                                 <i class="far fa-file-alt proyecto__icono"></i>
                             </div>
                         </article>
                         <article class="proyectos__elemento" >
-                            <img src="recursos/img3.jpg" alt="Imagen 1" class="proyectos__img">
+                            <img   srcset="recursos/img3_1980.webp 1920w,
+                            recursos/img3_720.webp 720w,
+                            recursos/img3_480.webp 480w,
+                            recursos/img3_360.web 360w"
+                      sizes="(max-with: 320px) 280px,
+                      (max-with: 720px) 680px,
+                      (max-with: 1920px) 1880px" alt="Imagen 1" class="proyectos__img">
                             <div class="proyecto__hover">
                                 <h2 class="proyecto__titulo">Proyecto</h2>
                                 <i class="far fa-file-alt proyecto__icono"></i>
                             </div>
                         </article>
                         <article class="proyectos__elemento" >
-                            <img src="recursos/img4.jpg" alt="Imagen 1" class="proyectos__img">
+                            <img   srcset="recursos/img4_1980.webp 1920w,
+                            recursos/img4_720.webp 720w,
+                            recursos/img4_480.webp 480w,
+                            recursos/img4_360.web 360w"
+                      sizes="(max-with: 320px) 280px,
+                      (max-with: 720px) 680px,
+                      (max-with: 1920px) 1880px"alt="Imagen 1" class="proyectos__img">
                             <div class="proyecto__hover">
                                 <h2 class="proyecto__titulo">Proyecto</h2>
                                 <i class="far fa-file-alt proyecto__icono"></i>
@@ -115,7 +154,10 @@
                 <div class="testimonio__grid">
                     <article class="testimonio__elemento">
                         <div class="testimonio__persona">
-                            <img src="recursos/programador_1.jpg" alt="Programador 1" class="testimonio__img">
+                            <img   srcset="recursos/persona1_480.webp 1920w"                        
+                      sizes="(max-with: 320px) 280px,
+                      (max-with: 720px) 680px,
+                      (max-with: 1920px) 1880px" alt="Programador 1" class="testimonio__img">
                             <div class="testimonio__textos">
                                 <h3 class="nombre_testimonio">Scott Martinez</h3>
                                 <p class="verifica_testimonio">Creador de esta pagina web</p>
@@ -125,7 +167,7 @@
                     </article>
                     <article class="testimonio__elemento">
                         <div class="testimonio__persona">
-                            <img src="recursos/programador_1.jpg" alt="Programador 1" class="testimonio__img">
+                            <img src="recursos/persona2_480.webp" alt="Programador 1" class="testimonio__img persona2">
                             <div class="testimonio__textos">
                                 <h3 class="nombre_testimonio">Scott Martinez</h3>
                                 <p class="verifica_testimonio">Creador de esta pagina web</p>
